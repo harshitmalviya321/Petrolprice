@@ -1,0 +1,33 @@
+body{
+    font-family: 'open snas',sans-serif;
+    background-color: black;
+}
+
+#box{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 520px;
+    height: 620px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    top: 100px;
+    position: relative;
+    border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#result{
+    
+    height: 60px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #919191;
+    position: relative;
+}
+
+#output{
+text-align: left;
+height: 100px;
+margin: 10px 20px;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}

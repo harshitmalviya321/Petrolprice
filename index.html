@@ -1,0 +1,53 @@
+<html>
+<head>        
+<title>Fuel Meter</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+            <div id="box">
+      
+                <div id="result">
+                    <div class=" text-center">    
+                    </div>
+                      <form id="form" class="w-50 m-auto" >
+
+                        <img src="index.png" class="rounded " alt="..." height="150">
+                        <div class="form-group">
+                            <p>Select Bikes/Scooter</p>
+                            <div class="form-group">
+                              <select id="bikes" class="form-control" >
+                                <option value="act">Activa125cc</option>
+                                <option value="acti">Activa</option>
+                                <option value="avi">Aviator</option>
+                                <option value="jup">Jupiter</option>
+                                <option value="mae">Maestro</option>
+                                <option value="acc">Access125cc</option>
+                                <option value="hf">HFdelux</option>
+                                <option value="ct">CT100</option>
+                                <option value="fzs">FZS</option>
+                                <option value="aveng">AvengerStreet220</option>
+                              </select> 
+                            </div>
+                          </div>
+                        
+                          <p></p><b class="text-center">Fuel meter Reading</b></p>
+                        During Pickup: <input type="text"   required class="form-control" id ="pickup">
+                        
+                        During Drop: <input type="text" class ="form-control" id ="drop"><br>
+
+                        <button id ="h" type="button"  class="btn btn-primary"  onclick="myFunction()"  >Calculate</button><br><br>           
+                         Final Settlement Amount: <b class ="form-group m-auto w-20" id ="output">
+                         </form>  
+
+                    
+                </div>
+            </div> 
+                    <script src="script.js"></script>
+  </body> 
+    
+</html>
